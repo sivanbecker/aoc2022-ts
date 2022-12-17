@@ -25,5 +25,5 @@ export class Solver {
 export function daySolver(solver: Solver): void {
     console.log("Solving Day ****");
     solver.part1(true);
-    solver.part2(true)
+    solver.part2(false)
 }

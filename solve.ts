@@ -1,6 +1,6 @@
-import { daySolver, Solver }  from './day4/';
+import { daySolver, Solver }  from './day5/';
 
-const DAY_NUMBER = 4;
+const DAY_NUMBER = 5;
 const DAY = `./day${DAY_NUMBER}`;
 const envs = {
     REAL: 'real',
