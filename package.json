@@ -1,0 +1,19 @@
+{
+  "name": "aoc2022",
+  "version": "1.0.0",
+  "description": "Advent Of Code 2022 in TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node solve.js",
+    "build": "tsc solve.ts ;tsc day3/index.ts ; npm run start"
+  },
+  "keywords": [],
+  "author": "Sivan Becker",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3"
+  }
+}
